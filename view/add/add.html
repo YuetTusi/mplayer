@@ -13,12 +13,22 @@
   <body>
     <div class="container mt-4">
       <h3>添加歌曲到曲库</h3>
-      <button type="button" class="btn btn-primary btn-block mt-4">
+      <button
+        type="button"
+        id="btnAddSong"
+        class="btn btn-outline-primary btn-block mt-4"
+      >
         选择音乐
       </button>
+      <button
+        type="button"
+        id="btnImportSong"
+        class="btn btn-primary btn-block mt-4"
+      >
+        导入音乐
+      </button>
+      <ul id="music-list" class="list-group mt-4"></ul>
     </div>
-    <script>
-      require("./add");
-    </script>
+    <script src="add.js"></script>
   </body>
 </html>
