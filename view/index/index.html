@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="container mt-4">
-      <h3>我的mPlayer播放器</h3>
+      <h3>MusicPlayer</h3>
       <button
         id="btnOpenAddView"
         type="button"
@@ -26,6 +26,18 @@
         添加歌曲到曲库
       </button>
       <ul class="list-group mt-4" id="song-list"></ul>
+    </div>
+    <div class="container mt-4">
+      <div id="info" class="info"></div>
+      <div class="progress">
+        <div
+          class="progress-bar"
+          role="progressbar"
+          aria-valuenow="0"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        ></div>
+      </div>
     </div>
     <script>
       require("./index");

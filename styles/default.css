@@ -1,3 +1,9 @@
 .list-group-item > span {
   padding: 0 5px;
 }
+.list-group-item i {
+  cursor: pointer;
+}
+.list-group-item i:hover {
+  color: #007bff;
+}
